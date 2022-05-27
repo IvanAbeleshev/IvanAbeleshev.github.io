@@ -1,0 +1,289 @@
+/*media*/
+
+@media all and (max-width: 1024px) {
+    .waveBlock .rightPart img{
+        max-width: 450px;
+        flex: 6;
+    } 
+
+    /*wave nft*/
+    .waveNFT{
+        width: 95%;
+        display: flex;
+    }
+    .waveNFT .leftPart{
+        flex: 2;
+    }
+    .waveNFT .rightPart{
+        flex: 3;
+    }
+    .waveNFT .pictureWaveNFT{
+        max-width: 350px;
+    }
+    
+    .waveNFT button{
+        width: 60%;
+        height: 3rem;
+        background-color: transparent;
+        font-family: 'DM Mono';
+        color: white;
+        border: 1px solid #8DFD1B;
+    }
+
+    /*artist*/
+    .artist .artistPerson{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+    }
+    .artist .titleArtist span{
+        padding-left: 5%;
+    }
+
+    /*block stories*/
+    .storiesContent{
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    /*roadmap*/
+    .titleImageRoadMap{
+        width: 100%;
+        height: 170px;
+        margin-bottom: 100px;
+    }
+    .roadmapData .itemRoadmap{
+        width: 60%;
+    }
+    
+    #firstImageAround{
+        position: absolute;
+        transform: scale(0.5) translateY(-90%) translateX(-50%);
+    }
+
+    #secondImageAround{
+        position: absolute;
+        transform: scale(0.5) translateX(65%) translateY(30%);
+    }
+    
+    #thirdthImageAround{
+        position: absolute;
+        transform: scale(0.5) translateX(-60%) translateY(220%);
+    }
+
+    /*block partners*/
+    .partners{
+        margin-top: 100px;
+    }
+
+    .partners .LogoPartners{
+        grid-template-columns: repeat(2, 1fr);
+        width: 95%;
+        gap: 30px;
+    }
+    .partners .itemPartner:hover{
+        transform: scale(1.1);
+    }
+
+    /*block questions*/
+    .questions{
+        margin: 100px 10px;
+    }
+
+    .titleImgQuestion img{
+        margin-top: 30px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .someQuestion{
+        margin-left: 20px;
+    }
+
+    /*block team*/
+    .team .animationTextTeam{
+        padding-left: 5%;
+    }
+
+    .team .animationTextTeam{
+        margin-bottom: 50px;
+    }
+    .teamItems{
+        display:flex;
+    }
+    .team .infoItem{
+        width: 100%;
+    }
+    .team .infoItem p{
+        width: 40%;
+    }
+
+    /*block Join our*/
+    .blockJoinOur .imgJoinOur img{
+        width: 350px;
+        height: 350px
+    }
+    /*footer*/
+    .footer{
+        padding: 25px 10px;
+    }
+    .mainFooter>div:last-child{
+        padding: 5px;
+    }
+    @keyframes animationTitleArtist {
+        0%{padding-left: 5%;}
+        25%{transform: scale(0.3) rotateY(90deg);}
+        50%{padding-left: 50%;}
+    }
+}
+
+@media all and (max-width: 767px) {
+    /*header*/
+    .header{
+        padding: 0px;
+    }  
+    
+    .navList{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navItem{
+        margin-left: 0;
+        padding-top: 15px;
+    }
+
+    .listSocialNetwork{
+        display: flex;
+        flex-direction: column;
+    }
+    .itemSocialNetwork{
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+
+    /*wave block*/
+    .waveBlock .rightPart{
+        display: none;
+    }
+
+    /*wave nft*/
+    .waveNFT .pictureWaveNFT{
+        max-width: 300px;
+    }
+
+    .waveNFT{
+        width: 95%;
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+
+    /*artist*/
+    .artist .artistPerson{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*block stories*/
+    .storiesContent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contentNavigation ul{
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+    }
+    .content .showStory{
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+    .content .storyData{
+        min-width: 320px;
+    }
+
+    /*roadmap*/
+    .titleImageRoadMap{
+        height: 100px;
+        margin-bottom: 50px;
+    }   
+    #firstImageAround{
+        position: absolute;
+        transform: scale(0.3) translateY(-150%) translateX(-120%);
+    }
+
+    #secondImageAround{
+        display: none;
+    }
+    
+    #thirdthImageAround{
+        position: absolute;
+        transform: scale(0.3) translateX(-100%) translateY(470%);
+    }
+    .roadmapData .itemRoadmap{
+        width: 90%;
+        height: 320px;
+    }
+    /*block partners*/
+    .partners .LogoPartners{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .partners .LogoPartners img{
+        max-width: 280px;
+    }
+
+    /*block questions*/
+    .questions{
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .someQuestion{
+        margin-left: 0px;
+        padding-left: 5px;
+    }
+
+    /*block Join our*/
+    .blockJoinOur{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .blockJoinOur .titleJoinOur{
+        width: 95%;
+    }
+
+    /*footer*/
+    .mainFooter{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer{
+        height: auto;
+    }
+
+    @keyframes animationTitleArtist {
+        0%{}
+        25%{transform: scale(0.3) rotateY(90deg);}
+        50%{}
+    }
+}
+
+@media all and (max-width: 1366px) {
+
+    #secondImageAround{
+        position: absolute;
+        transform: scale(0.8) translateX(100%) translateY(30%);
+    }
+    
+}

@@ -207,7 +207,6 @@ button:hover{
 .artist .artistPerson{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     row-gap: 50px;
 }
 
@@ -659,3 +658,4 @@ width: 100%;
     justify-content: space-evenly;
     font-size: 13px;
 }
+
